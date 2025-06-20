@@ -1,0 +1,44 @@
+   body {
+      margin: 0;
+      padding: 2rem;
+      transition: background-color 0.3s ease;
+      background-color: #1c1f22;
+      color: white;
+    }
+
+    .circle-img {
+      width: 100px;
+      height: 100px;
+      object-fit: cover;
+      border-radius: 50%;
+      margin-left: 0.5rem;
+    }
+
+ .card-custom {
+    background-color: transparent;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 1rem;
+  }
+
+    .nav-pills .nav-link {
+      color: #bbb;
+    }
+
+    .nav-pills .nav-link.active {
+      background-color: #0d6efd;
+      color: white;
+    }
+
+    .form-control {
+      background-color: #f8f9fa;
+      color: black;
+    }
+
+    .theme-toggle {
+      text-align: right;
+      margin-bottom: 1rem;
+    }
